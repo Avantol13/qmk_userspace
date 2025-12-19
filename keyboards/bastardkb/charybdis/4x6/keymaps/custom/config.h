@@ -16,8 +16,6 @@
  */
 #pragma once
 
-#define VIA_ENABLE yes
-
 #ifdef VIA_ENABLE
 /* VIA configuration. */
 #    define DYNAMIC_KEYMAP_LAYER_COUNT 6
