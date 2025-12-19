@@ -84,7 +84,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
         KC_TRNS, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5,             KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-        KC_TRNS, KC_R, KC_Q, KC_UP, KC_E, C(KC_C),             KC_U, DF(L_GAME), DRAGSCROLL_TOGGLE, KC_MS_BTN2, TG(2), DF(0),
+        KC_TRNS, KC_R, KC_Q, KC_UP, KC_E, C(KC_C),             KC_U, DF(L_GAME), DRAGSCROLL_MODE, KC_MS_BTN2, TG(2), DF(0),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
         KC_TRNS, KC_LSFT, KC_LEFT, KC_DOWN, KC_RGHT, C(KC_V),  KC_I, KC_MS_BTN1, C(KC_D), DRAGSCROLL_MODE, KC_MS_BTN1, DF(2),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
@@ -97,7 +97,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [L_HELP2] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                KC_NO, KC_NO, KC_NO, KC_NO, RESET, QK_CLEAR_EEPROM,
+        KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,                KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, QK_CLEAR_EEPROM,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
         KC_NO, KC_NO, KC_NO, KC_NO, POINTER_DEFAULT_DPI_REVERSE, POINTER_SNIPING_DPI_REVERSE,            POINTER_SNIPING_DPI_FORWARD, POINTER_DEFAULT_DPI_FORWARD, KC_NO, KC_NO, KC_NO, KC_NO,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
