@@ -84,9 +84,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
         KC_TRNS, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5,             KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_F11,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-        KC_TRNS, KC_R, KC_Q, KC_UP, KC_E, MACRO(0),             KC_U, DF(L_GAME), DRAGSCROLL_TOGGLE, KC_MS_BTN2, TG(2), DF(0),
+        KC_TRNS, KC_R, KC_Q, KC_UP, KC_E, C(KC_C),             KC_U, DF(L_GAME), DRAGSCROLL_TOGGLE, KC_MS_BTN2, TG(2), DF(0),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-        KC_TRNS, KC_LSFT, KC_LEFT, KC_DOWN, KC_RGHT, MACRO(1),  KC_I, KC_MS_BTN1, MACRO(2), DRAGSCROLL_MODE, KC_MS_BTN1, DF(2),
+        KC_TRNS, KC_LSFT, KC_LEFT, KC_DOWN, KC_RGHT, C(KC_V),  KC_I, KC_MS_BTN1, C(KC_D), DRAGSCROLL_MODE, KC_MS_BTN1, DF(2),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
         KC_TRNS, KC_LCTL, KC_Z, KC_X, KC_V, KC_T,               KC_M, KC_RSFT, KC_RCTL, KC_RALT, KC_RGUI, KC_F12,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
